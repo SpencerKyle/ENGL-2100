@@ -12,15 +12,33 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
+        <Heading as="p" className="hero__title">
           {siteConfig.title}
+          <div style={{width: '60%', margin: 'auto', textAlign: 'start'}}>
+            <p style={{fontSize: '50%'}}>Documentation Site Example for Discord Users</p>
+            <p style={{fontSize: '50%'}}>Inspiration: Attempting *and failing* to come up with a time to meet with Instructor to go over some Discord Channel ideas involving class discussions</p>
+            <ul style={{fontSize: '50%'}}>Accessiblity Features:
+              <li>Alt Text on all images!</li>
+              <li>Light/Dark Mode</li>
+              <li>Site Navigation</li>
+            </ul>
+          </div>
         </Heading>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            CLICK HERE!
+            Click Me to Start!
           </Link>
+        </div>
+        <div style={{textAlign: 'start', margin:'auto', width:'70%'}}>
+          <br></br>
+          <h3>
+            Sources:
+          </h3>
+          <p>Discord Documentation: https://support.discord.com/hc/en-us/articles/6208479917079-Forum-Channels-FAQ</p>
+          <p>Docusaurus Wiki: https://docusaurus.io</p>
+          <p>Mac Screenshot and Editing Tools: https://www.youtube.com/watch?v=Z5krxaLgkfo</p>
         </div>
       </div>
     </header>

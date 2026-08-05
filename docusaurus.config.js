@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'ENGL-2100',
+  title: 'ENGL-2100 | Design Project',
   tagline: 'ENGL-2100',
   favicon: 'img/favicon.ico',
 
