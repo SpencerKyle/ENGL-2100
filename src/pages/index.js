@@ -36,9 +36,9 @@ function HomepageHeader() {
           <h3>
             Sources:
           </h3>
-          <p>Discord Documentation: https://support.discord.com/hc/en-us/articles/6208479917079-Forum-Channels-FAQ</p>
-          <p>Docusaurus Wiki: https://docusaurus.io</p>
-          <p>Mac Screenshot and Editing Tools: https://www.youtube.com/watch?v=Z5krxaLgkfo</p>
+          <p>[1]“Forum Channels FAQ,” Discord, Oct. 24, 2024. https://support.discord.com/hc/en-us/articles/6208479917079-Forum-Channels-FAQ (accessed Aug. 02, 2026).</p>
+          <p>[2]“Build optimized websites quickly, focus on your content | Docusaurus.” Accessed: Aug. 02, 2026. [Online]. Available: https://docusaurus.io</p>
+          <p>[3]Full Speed Mac & PC, “How To Markup & Annotate A Screenshot In macOS | A Quick & Easy Guide,” YouTube, May 19, 2024. https://www.youtube.com/watch?v=Z5krxaLgkfo (accessed Jul. 25, 2026).</p>
         </div>
       </div>
     </header>
