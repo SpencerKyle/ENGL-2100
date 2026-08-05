@@ -10,17 +10,17 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="p" className="hero__title">
+    <header className={clsx('hero hero--primary', styles.heroBanner)} style={{paddingTop:'200px'}}>
+      <div className="container" >
+        <Heading as="h1" className="hero__title">
           {siteConfig.title}
-          <div style={{width: '60%', margin: 'auto', textAlign: 'start'}}>
+          <div style={{width: '60%', margin: 'auto', fontWeight:'normal'}}>
             <p style={{fontSize: '50%'}}>Documentation Site Example for Discord Users</p>
             <p style={{fontSize: '50%'}}>Inspiration: Attempting *and failing* to come up with a time to meet with Instructor to go over some Discord Channel ideas involving class discussions</p>
-            <ul style={{fontSize: '50%'}}>Accessiblity Features:
-              <li>Alt Text on all images!</li>
-              <li>Light/Dark Mode</li>
-              <li>Site Navigation</li>
+            <ul style={{fontSize: '50%',textAlign: 'center', fontWeight:'bold', listStyle:'none'}} >Accessiblity Features:
+              <li style={{fontWeight:'normal'}}>Alt Text on all images!</li>
+              <li style={{fontWeight:'normal'}}>Light/Dark Mode</li>
+              <li style={{fontWeight:'normal'}}>Site Navigation</li>
             </ul>
           </div>
         </Heading>
@@ -31,7 +31,7 @@ function HomepageHeader() {
             Click Me to Start!
           </Link>
         </div>
-        <div style={{textAlign: 'start', margin:'auto', width:'70%'}}>
+        <div style={{textAlign: 'start', margin:'auto', width:'70%', paddingBottom:'70px'}}>
           <br></br>
           <h3>
             Sources:
